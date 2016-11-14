@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_113eQKppEeabFOckVrpnWg" name="NewModel">
+  <packagedElement xmi:type="uml:Class" xmi:id="_eHHfEKprEeabFOckVrpnWg" name="Département"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_poAIUKprEeabFOckVrpnWg" name="Enseignant"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_qsXvYKprEeabFOckVrpnWg" name="Module"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_rlaQMKprEeabFOckVrpnWg" name="Parcours"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s3eVAKprEeabFOckVrpnWg" name="Demande"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_u8YzEKprEeabFOckVrpnWg" name="PublicDeModule"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_wRN4AKprEeabFOckVrpnWg" name="Enseignement"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_xu9BUKprEeabFOckVrpnWg" name="De"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6L9p4KprEeabFOckVrpnWg" memberEnd="_6L9p4aprEeabFOckVrpnWg _6L9p5KprEeabFOckVrpnWg" navigableOwnedEnd="_6L9p4aprEeabFOckVrpnWg _6L9p5KprEeabFOckVrpnWg">
+    <ownedEnd xmi:id="_6L9p4aprEeabFOckVrpnWg" name="départements" type="_eHHfEKprEeabFOckVrpnWg" association="_6L9p4KprEeabFOckVrpnWg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6L9p4qprEeabFOckVrpnWg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6L9p46prEeabFOckVrpnWg" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_6L9p5KprEeabFOckVrpnWg" name="enseignants" type="_poAIUKprEeabFOckVrpnWg" association="_6L9p4KprEeabFOckVrpnWg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6L9p5aprEeabFOckVrpnWg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6L9p5qprEeabFOckVrpnWg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Hy714KpsEeabFOckVrpnWg" memberEnd="_Hy714apsEeabFOckVrpnWg _Hy715KpsEeabFOckVrpnWg" navigableOwnedEnd="_Hy714apsEeabFOckVrpnWg _Hy715KpsEeabFOckVrpnWg">
+    <ownedEnd xmi:id="_Hy714apsEeabFOckVrpnWg" name="départements" type="_eHHfEKprEeabFOckVrpnWg" association="_Hy714KpsEeabFOckVrpnWg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Hy714qpsEeabFOckVrpnWg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Hy7146psEeabFOckVrpnWg" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_Hy715KpsEeabFOckVrpnWg" name="parcourss" type="_rlaQMKprEeabFOckVrpnWg" association="_Hy714KpsEeabFOckVrpnWg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Hy715apsEeabFOckVrpnWg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Hy715qpsEeabFOckVrpnWg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_IUHQUKpsEeabFOckVrpnWg" memberEnd="_IUHQUapsEeabFOckVrpnWg _IUHQVKpsEeabFOckVrpnWg" navigableOwnedEnd="_IUHQUapsEeabFOckVrpnWg _IUHQVKpsEeabFOckVrpnWg">
+    <ownedEnd xmi:id="_IUHQUapsEeabFOckVrpnWg" name="parcourss" type="_rlaQMKprEeabFOckVrpnWg" association="_IUHQUKpsEeabFOckVrpnWg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IUHQUqpsEeabFOckVrpnWg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IUHQU6psEeabFOckVrpnWg" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_IUHQVKpsEeabFOckVrpnWg" name="modules" type="_qsXvYKprEeabFOckVrpnWg" association="_IUHQUKpsEeabFOckVrpnWg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IUHQVapsEeabFOckVrpnWg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IUHQVqpsEeabFOckVrpnWg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_I2TXYKpsEeabFOckVrpnWg" memberEnd="_I2TXYapsEeabFOckVrpnWg _I2TXZKpsEeabFOckVrpnWg" navigableOwnedEnd="_I2TXYapsEeabFOckVrpnWg _I2TXZKpsEeabFOckVrpnWg">
+    <ownedEnd xmi:id="_I2TXYapsEeabFOckVrpnWg" name="modules" type="_qsXvYKprEeabFOckVrpnWg" association="_I2TXYKpsEeabFOckVrpnWg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I2TXYqpsEeabFOckVrpnWg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I2TXY6psEeabFOckVrpnWg" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_I2TXZKpsEeabFOckVrpnWg" name="enseignements" type="_wRN4AKprEeabFOckVrpnWg" association="_I2TXYKpsEeabFOckVrpnWg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I2TXZapsEeabFOckVrpnWg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I2TXZqpsEeabFOckVrpnWg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Jl3zIKpsEeabFOckVrpnWg" memberEnd="_Jl3zIapsEeabFOckVrpnWg _Jl3zJKpsEeabFOckVrpnWg" navigableOwnedEnd="_Jl3zIapsEeabFOckVrpnWg _Jl3zJKpsEeabFOckVrpnWg">
+    <ownedEnd xmi:id="_Jl3zIapsEeabFOckVrpnWg" name="enseignements" type="_wRN4AKprEeabFOckVrpnWg" association="_Jl3zIKpsEeabFOckVrpnWg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Jl3zIqpsEeabFOckVrpnWg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Jl3zI6psEeabFOckVrpnWg" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_Jl3zJKpsEeabFOckVrpnWg" name="publicDeModules" type="_u8YzEKprEeabFOckVrpnWg" association="_Jl3zIKpsEeabFOckVrpnWg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Jl3zJapsEeabFOckVrpnWg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Jl3zJqpsEeabFOckVrpnWg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LKuREKpsEeabFOckVrpnWg" name="volumeHoraireEnseignement"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_OLBZUKpsEeabFOckVrpnWg" name="nombreDeGroupes"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_RtO70KpsEeabFOckVrpnWg" memberEnd="_RtO70apsEeabFOckVrpnWg _RtO71KpsEeabFOckVrpnWg" navigableOwnedEnd="_RtO70apsEeabFOckVrpnWg _RtO71KpsEeabFOckVrpnWg">
+    <ownedEnd xmi:id="_RtO70apsEeabFOckVrpnWg" name="enseignements" type="_wRN4AKprEeabFOckVrpnWg" association="_RtO70KpsEeabFOckVrpnWg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RtO70qpsEeabFOckVrpnWg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RtO706psEeabFOckVrpnWg" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_RtO71KpsEeabFOckVrpnWg" name="volumeHoraireEnseignements" type="_LKuREKpsEeabFOckVrpnWg" association="_RtO70KpsEeabFOckVrpnWg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RtO71apsEeabFOckVrpnWg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RtO71qpsEeabFOckVrpnWg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_SdFEYKpsEeabFOckVrpnWg" memberEnd="_SdFEYapsEeabFOckVrpnWg _SdFEZKpsEeabFOckVrpnWg" navigableOwnedEnd="_SdFEYapsEeabFOckVrpnWg _SdFEZKpsEeabFOckVrpnWg">
+    <ownedEnd xmi:id="_SdFEYapsEeabFOckVrpnWg" name="enseignements" type="_wRN4AKprEeabFOckVrpnWg" association="_SdFEYKpsEeabFOckVrpnWg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SdFEYqpsEeabFOckVrpnWg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SdFEY6psEeabFOckVrpnWg" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_SdFEZKpsEeabFOckVrpnWg" name="nombreDeGroupess" type="_OLBZUKpsEeabFOckVrpnWg" association="_SdFEYKpsEeabFOckVrpnWg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SdFEZapsEeabFOckVrpnWg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SdFEZqpsEeabFOckVrpnWg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_XwyZsKpsEeabFOckVrpnWg" name="horaireGenerique"/>
+</uml:Model>
