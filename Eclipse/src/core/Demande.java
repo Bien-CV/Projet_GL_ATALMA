@@ -1,7 +1,7 @@
 /**
  * 
  */
-
+package core;
 /**
  * @author Baptiste
  *
